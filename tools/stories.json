@@ -1,0 +1,76 @@
+{
+  "briefs": [
+    "COP31 ends with no deal in Antalya after the EU rejects a text that never mentions fossil fuels.",
+    "India pledges a Rs 15,000-crore package for Nepal and signs eight deals with PM Shah.",
+    "Huawei launches its Mate X8 foldable phone in China today.",
+    "Trump says he spoke to Huang on Sunday and his push to bring him back was \"very important\"."
+  ],
+  "date": "Tuesday, 24 November 2026",
+  "footer": "THE DAILY GLOBE  |  Tuesday, 24 November 2026  |  Sources: Reuters, CNN, AP, Chess.com, ESPNcricinfo",
+  "lead": {
+    "body": "Nvidia reinstated Jensen Huang as CEO on Monday, 11 days after he quit. Shares jumped 31.5%.",
+    "chart_label": "Nvidia shares, Monday: +31.5%",
+    "headline": "Huang is back: Nvidia soars 31% in a day as markets roar back",
+    "kicker": "NVIDIA  ·  WALL STREET"
+  },
+  "markets": [
+    {
+      "label": "Nvidia",
+      "text": "+31.5%"
+    },
+    {
+      "label": "Nasdaq",
+      "text": "+6.51%"
+    },
+    {
+      "label": "S and P 500",
+      "text": "+4.73%"
+    },
+    {
+      "label": "Dow Jones",
+      "text": "+3.01%"
+    },
+    {
+      "label": "Gold",
+      "text": "$3,666"
+    },
+    {
+      "label": "Bitcoin",
+      "text": "~$63,400"
+    }
+  ],
+  "paper": "THE DAILY GLOBE",
+  "stories": [
+    {
+      "body": "Rep. Jimmy Gomez will quit on 1 December after an ethics report found evidence of sexual misconduct.",
+      "headline": "Congressman Gomez quits after ethics report finds sexual misconduct",
+      "kicker": "WASHINGTON"
+    },
+    {
+      "body": "Seven Ukrainian sea drones sank the corvette Merkury and hit the cargo ship MV Angara, Zelenskyy said.",
+      "headline": "Ukraine sinks Russian warship off Libya in drone-boat raid",
+      "kicker": "BENGHAZI"
+    },
+    {
+      "body": "A drone hit a five-storey block in Dymer, killing 11, in a barrage of 458 drones and 45 missiles.",
+      "headline": "Russian strikes kill 11 in Kyiv region as rescuers dig on",
+      "kicker": "DYMER"
+    },
+    {
+      "body": "A weekend blaze at a Banten candy factory killed 24, with about 30 missing. A short circuit is suspected.",
+      "headline": "24 dead in Indonesia candy-factory fire; dozens missing",
+      "kicker": "CIKANDE"
+    },
+    {
+      "body": "Game 1 starts today at 15:00 CET. Champion Gukesh, 20, defends against Sindarov, 20, over 14 games.",
+      "headline": "Chess crown on the line as Gukesh meets Sindarov",
+      "kicker": "GENEVA"
+    },
+    {
+      "body": "Mitchell (49*) and Phillips (26*) survived 120 overs to save the Test at 239 for 5. India made 720 for 9.",
+      "headline": "New Zealand bat out a draw after India's 720",
+      "kicker": "WELLINGTON"
+    }
+  ],
+  "tagline": "The world's news in one image"
+}
