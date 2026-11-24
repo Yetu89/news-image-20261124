@@ -15,13 +15,30 @@ OUT_DIR = os.environ.get("OUTPUT_DIR") or os.environ.get("MAKEFUN_OUTPUT_DIR") o
 DST = os.path.join(OUT_DIR, "entry.png")
 
 
+MAX_BYTES = 1048576  # the gate allows at most 1 MiB
+
+
 def main():
     if not os.path.isfile(SRC):
         print("error: entry.png not found next to main.py", file=sys.stderr)
         return 1
+    size = os.path.getsize(SRC)
+    if size > MAX_BYTES:
+        print(
+            f"error: entry.png is {size} bytes, over the 1 MiB limit",
+            file=sys.stderr,
+        )
+        return 1
     os.makedirs(OUT_DIR, exist_ok=True)
     shutil.copyfile(SRC, DST)
-    print("wrote", DST)
+    written = os.path.getsize(DST)
+    if written != size:
+        print(
+            f"error: wrote {written} bytes but entry.png is {size}",
+            file=sys.stderr,
+        )
+        return 1
+    print(f"wrote {DST} ({written} bytes)")
     return 0
 
 
